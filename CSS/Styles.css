@@ -1,17 +1,43 @@
 @font-face {
-    font-family: 'Letter Magic';
-    src: url('LetterMagicRegular.woff2') format('woff2'),
-        url('LetterMagicRegular.woff') format('woff');
+    font-family: 'Afterglow';
+    src: url('Afterglow-Regular.woff2') format('woff2'),
+        url(../Fonts/'Afterglow-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-header {
-    background-color: rgb(134, 155, 121);
+@font-face {
+    font-family: 'Letter Magic';
+    src: url('LetterMagicRegular.woff2') format('woff2'),
+        url(../Fonts/'LetterMagicRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+.container {
+    max-width: 1000px;
+    min-width: 720px;
+    height: 300px;
+    padding: 20px;
+    border: 4px;
+    background-color: rgb(134, 155, 121); }
 .projectone {
 	background-color: rgb(213, 221, 166);
-}
-h1, h2 {
+    max-width: 940px;
+    min-width: 720px;
+    padding: 20px;
+    border: 4px; }
+h1 {
     font-family: 'Letter Magic';
-}
+    padding: 20px; }
+.navigator {
+    text-align: right;
+    display: inline;
+    margin-right: 20px;
+    padding-right: 20px; }
+h2 {
+    font-family: 'Letter Magic';
+    padding: 20px; }
+h3 {
+    font-family: 'Afterglow';
+    font-size: 2.5rem; }
