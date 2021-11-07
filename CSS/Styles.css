@@ -4,40 +4,53 @@
         url(../Fonts/'Afterglow-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
+    font-display: swap; }
 @font-face {
     font-family: 'Letter Magic';
     src: url('LetterMagicRegular.woff2') format('woff2'),
         url(../Fonts/'LetterMagicRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
+    font-display: swap; }
 .container {
-    max-width: 1000px;
-    min-width: 720px;
-    height: 300px;
-    padding: 20px;
-    border: 4px;
-    background-color: rgb(134, 155, 121); }
+    background-color: rgb(134, 155, 121);
+    width: 100%
+    max-width: 900px;
+    min-height: 20rem;
+    margin: 0 rem;
+    padding: 1rem;}
 .projectone {
 	background-color: rgb(213, 221, 166);
-    max-width: 940px;
-    min-width: 720px;
-    padding: 20px;
-    border: 4px; }
+    width: 100%
+    max-width: 900px;
+    margin: 0 0 1;
+    padding: 16px; }
 h1 {
     font-family: 'Letter Magic';
-    padding: 20px; }
+    margin: 0; }
 .navigator {
+    list-style: none;
     text-align: right;
-    display: inline;
-    margin-right: 20px;
-    padding-right: 20px; }
+    margin: 2, 0rem; 
+    padding: .5rem;
+    font-size: 1.125rem; }
 h2 {
     font-family: 'Letter Magic';
-    padding: 20px; }
+    margin: 0;
+    background-color: rgb(134, 155, 121);
+    width: 100%
+    max-width: 900px;
+    min-height: .rem;
+    margin: 0rem;
+    padding-left: 1rem;
+    font-size: 2rem; }
 h3 {
     font-family: 'Afterglow';
-    font-size: 2.5rem; }
+    font-size: 5rem;
+    margin: 0; 
+    padding-left: .5rem; }
+h4 {
+    font-family: 'Afterglow';
+    margin: 0;
+    padding: .5rem;
+}
