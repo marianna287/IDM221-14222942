@@ -12,60 +12,103 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap; }
-.container {
+body {
     box-sizing: border-box;
-    background-image: url('../Images/background image_v02.png');
-    width: 100%
-    max-width: 900px;
-    min-height: 50rem;
-    margin: 0 auto 1.5rem; 
-    background-repeat: no-repeat;
-    background-position: center; }
-.container__img img {
-    width: 100%; }
-.projectone {
-	background-color: rgb(213, 221, 166);
     width: 100%;
-    max-width: 900px;
     margin: 0 0 1;
-    padding: 16px; }
+    height: auto;
+    position: relative;
+}
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+ }
 h1.firstname {
-    padding-top: 2.5rem;
+    padding-top: 6rem;
+    padding-bottom: .3rem;
     font-family: 'Letter Magic'; 
     font-size: 1.875rem;
-    margin: 0 auto;
     text-align: center;
+    margin: 0;
 }
 h1.lastname {
     font-family: 'Letter Magic'; 
     font-size: 1.875rem;
-    margin: 0 auto;
-    padding: .1rem;
-    text-align: center; }
+    text-align: center;
+    margin: 0 0 5rem 0; }
 .navigator {
     list-style: none;
     text-align: center;
-    margin: 6rem 0; 
-    padding: 1rem;
     font-size: 1.125rem; }
- .bottomheader ul {
-    list-style: none;
-	padding: 0; 
-    margin: 2rem 0; }
+ul.navigator {
+    padding: 0;
+}
+ul.navigator li{
+    padding: 3rem;
+    list-style: none; }
+ul.bottomheader {
+    width: 100%;
+    margin: 0;
+    padding: 16px; 
+    list-style: none; }
 .bottomheader li {
     font-family: 'Letter Magic';
     font-size: 1.5625rem;
-    display: inline-block; 
-    padding-right: 2rem; }
-.projecttitle li {
+    display: inline-block; }
+.bottomheader li a {
+    text-align: center;
+    padding: none;
+}
+li.project {
+    position: relative;
+    text-align: right;
+    left: 10rem;
+}
+.projecttitle {
     text-align: right; }
+.projectone {
+    border-top: .1rem solid black;
+    background-color: rgb(213, 221, 166);
+    width: 100%;
+    margin: 0 0 1;
+    padding: 16px;
+    max-height: 12rem; }
 h5 {
     font-family: 'Afterglow';
-    font-size: 5rem;
+    font-size: 10rem;
     margin: 0; 
-    padding-left: .5rem; }
+    padding-left: 2rem;
+    bottom: 10rem;
+    position: relative; }
 h6 {
     font-family: 'Afterglow';
     margin: 0;
     padding: .5rem;
 }
+aside.imagebox {
+    height: 11.25rem;
+    width: 13rem;
+    position: relative; 
+    border: .1rem solid black;
+    left: 9rem;
+    z-index: 1;
+}
+]
+aside.table{
+    position: relative;
+    left: 10rem;
+    z-index: 10;
+}
+.projecttwo {
+    background-color: blue;
+    width: 100%;
+    margin: 0 0 1;
+    padding: 16px;
+    max-height: 12rem; }
+.projectthree {
+        background-color: yellow;
+        width: 100%;
+        margin: 0 0 1;
+        padding: 16px;
+        max-height: 12rem; }
