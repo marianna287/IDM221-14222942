@@ -12,6 +12,30 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap; }
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.woff2') format('woff2'),
+        url(../Fonts/'MonumentExtended-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sonder';
+    src: url('SonderRegular.woff2') format('woff2'),
+        url(../Fonts/'SonderRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stretch Pro';
+    src: url('StretchProRegular.woff2') format('woff2'),
+        url(../Fonts/'StretchProRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 body {
     box-sizing: border-box;
     width: 100%;
@@ -22,18 +46,18 @@ body {
 .container {
     width: 100%;
     margin: 0;
-    padding: 16px;
- }
+    padding: 16px
+    background-color: rgb(230, 96, 124); }
 h1.firstname {
     padding-top: 6rem;
     padding-bottom: .3rem;
-    font-family: 'Letter Magic'; 
+    font-family: 'Stretch Pro'; 
     font-size: 1.875rem;
     text-align: center;
     margin: 0;
 }
 h1.lastname {
-    font-family: 'Letter Magic'; 
+    font-family: 'Stretch Pro'; 
     font-size: 1.875rem;
     text-align: center;
     margin: 0 0 5rem 0; }
@@ -73,7 +97,7 @@ li.project {
     width: 100%;
     margin: 0 0 1;
     padding: 16px;
-    max-height: 12rem; }
+    max-height: 13rem; }
 h5 {
     font-family: 'Afterglow';
     font-size: 10rem;
@@ -91,10 +115,15 @@ aside.imagebox {
     width: 13rem;
     position: relative; 
     border: .1rem solid black;
+    border-radius: 10px;
     left: 9rem;
     z-index: 1;
 }
-]
+aside.bowl {
+    position: relative;
+    left: 14rem;
+    z-index: 10;
+}
 aside.table{
     position: relative;
     left: 10rem;
