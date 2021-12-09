@@ -1,57 +1,144 @@
 @font-face {
     font-family: 'Afterglow';
     src: url('Afterglow-Regular.woff2') format('woff2'),
-        url(../Fonts/'Afterglow-Regular.woff') format('woff');
+        url(../fonts/'Afterglow-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap; }
+    font-display: swap; 
+}
+
 @font-face {
     font-family: 'Letter Magic';
     src: url('LetterMagicRegular.woff2') format('woff2'),
-        url(../Fonts/'LetterMagicRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; }
-@font-face {
-    font-family: 'Monument Extended';
-    src: url('MonumentExtended-Regular.woff2') format('woff2'),
-        url(../Fonts/'MonumentExtended-Regular.woff') format('woff');
+        url(../fonts/'LetterMagicRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.woff2') format('woff2'),
+        url(../fonts/'MonumentExtended-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
     font-family: 'Sonder';
     src: url('SonderRegular.woff2') format('woff2'),
-        url(../Fonts/'SonderRegular.woff') format('woff');
+        url(../fonts/'SonderRegular.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Stretch Pro';
     src: url('StretchProRegular.woff2') format('woff2'),
-        url(../Fonts/'StretchProRegular.woff') format('woff');
+        url(../fonts/'StretchProRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-body {
+
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Stretch Pro';
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(230,96, 124);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2 {
+    line-height 1;
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+img {
     width: 100%;
-    margin: 0 0 1;
-    height: auto;
-    position: relative;
 }
-.header {
-    background-color: rgb(230, 96, 124);
+
+.navbar {
+    max height: 3.75rem;
+    height: 100%;
 }
-.container {
+
+.topcontainer {
+    border: black solid .1rem;
     width: 100%;
     margin: 0;
-    padding: 16px; 
-    background-color: rgb(230, 96, 124); 
+    overflow: auto;
+    background-color: seashell;
 }
+
+.flex {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navsymbol {
+    height: 2rem;
+    width: 2rem;
+    margin: auto 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 1rem;
+}
+
+.navbar a {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    border-radius: 40rem;
+    padding: .6rem;
+    background-color: rgb(230,96, 124);
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navsymbol .flex {
+    justify-content: right;
+    overflow: auto;
+    padding: 1rem;
+}
+
+div.container {
+    padding: 16px;
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
 h1.firstname {
     padding-top: 6rem;
     padding-bottom: .3rem;
@@ -61,24 +148,45 @@ h1.firstname {
     margin: 0;
     color: white;
 }
+
 h1.lastname {
     font-family: 'Stretch Pro'; 
     font-size: 1.875rem;
     text-align: left;
-    margin: 0 0 5rem 0;
-    color: white; }
-.bottomheader {
-    padding: 1rem;
+    margin: 0;
+    color: white; 
 }
-p.bottomheader {
-    font-family: 'Stretch Pro';
+
+.bio {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem
+    font-family: 'Monument Extended';
+    margin: 0rem;
 }
-p.projects {
-    position: relative;
+
+.frontpage {
+    margin: 0 .5rem;
+}
+
+div.projects {
+    width: 100%;
     text-align: right;
+    margin: 0rem;
+    font-size: .75rem;
+}
+h2.projects {
+    font-family: 'Stretch Pro';
+    position: relative;
     color: white;
     font-size: 1.875 rem;
-    font-family: 'Stretch Pro';
+    margin: 0rem;
+    text-align: right;
+    padding: 0rem;
+}
+main {
+    width: 100%;
+    margin: 0;
 }
 .projecttitle {
     text-align: right; }
@@ -86,49 +194,31 @@ p.projects {
     border-top: .1rem solid black;
     background-color: rgb(213, 221, 166);
     width: 100%;
-    margin: 0 0 1;
-    padding: 16px;
-    max-height: 13rem; }
-h5 {
-    font-family: 'Afterglow';
-    font-size: 10rem;
-    margin: 0; 
-    padding-left: 2rem;
-    bottom: 10rem;
-    position: relative; }
-h6 {
-    font-family: 'Afterglow';
-    margin: 0;
-    padding: .5rem;
 }
-aside.imagebox {
+
+.imagebox .flex {
+    display: flex;
+    justify-content: right;
+}
+h5.one .flex {
+    display: flex;
+    justify-content: left;
+    font-size: 3rem;
+}
+
+h5.one {
+    font-size: 15rem;
+    font-family: 'Sonder';
+}
+div.imagebox {
     height: 11.25rem;
     width: 13rem;
     position: relative; 
     border: .1rem solid black;
     border-radius: 10px;
-    left: 9rem;
     z-index: 1;
 }
-aside.bowl {
+div.bowl {
     position: relative;
-    left: 14rem;
     z-index: 10;
 }
-aside.table{
-    position: relative;
-    left: 10rem;
-    z-index: 10;
-}
-.projecttwo {
-    background-color: blue;
-    width: 100%;
-    margin: 0 0 1;
-    padding: 16px;
-    max-height: 12rem; }
-.projectthree {
-        background-color: yellow;
-        width: 100%;
-        margin: 0 0 1;
-        padding: 16px;
-        max-height: 12rem; }

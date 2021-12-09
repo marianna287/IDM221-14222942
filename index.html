@@ -5,48 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="normalize" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class= "header">
-        <div class="nav"> 
+    <div class="navbar"> 
+        <div class="topcontainer flex">
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <img src="Images/ball1.png" alt="navsymbol" class="navsymbol">
         </div>
-            <div class="container"> 
-                <h1 class="firstname"> mariANNA </h1>
-                <h1 class="lastname"> LAMBBros </h1> 
-                <p>my name is marianna</p>
-            </div>
-            <div class= "bottomheader">
-                <p> Projjects </p> 
-            </div>
-    </header>
+    </div>
+    <div class="frontpage"> 
+        <div class="bio">
+            <h1 class="firstname"> MariaNNa </h1>
+            <h1 class="lastname"> LAMBBros </h1> 
+            <p class="bio"> my name is marianna </p>
+        </div>
+        <div class="projects">
+            <h2>Projjects</h2>
+        </div>
+    </div>
     <main>
-        <div class="projectone">
-            <aside class="imagebox">
+        <div class="projectone flex">
+            <h5 class="one"> 1 </h5>
+            <div class="imagebox">
                 <img src="Images/Medi-ready-bowl.png" alt="medi-ready" class="bowl"> 
-            </aside>
-            <h5> 1 </h5>
+            </div>
         </div>
-        <div class="projecttwo">
-            <aside class="imagebox">
-                <img src="Images/table-render_v01.png" alt="table render" class="table"> 
-            </aside>
-            <h5> 2 </h5>
-        </div>
-        <div class="projectthree">
-            <aside class="imagebox">
-                <img src="Images/table-render_v01.png" alt="table render" class="table"> 
-            </aside>
-            <h5> 3 </h5>
-        </div>
-    </main>
     <footer>
-        <div>
-            <ul class="social">
-            <li></li>
-            </ul>
-        </div>
     </footer>
 </body>
 </html>
