@@ -102,7 +102,7 @@ img {
 .navsymbol {
     height: 2rem;
     width: 2rem;
-    margin: auto 1rem;
+    margin: 0 2rem 0 0;
 }
 
 .navbar ul {
@@ -143,7 +143,7 @@ h1.firstname {
     padding-top: 6rem;
     padding-bottom: .3rem;
     font-family: 'Stretch Pro'; 
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     text-align: left;
     margin: 0;
     color: white;
@@ -151,7 +151,7 @@ h1.firstname {
 
 h1.lastname {
     font-family: 'Stretch Pro'; 
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     text-align: left;
     margin: 0;
     color: white; 
@@ -160,7 +160,7 @@ h1.lastname {
 .bio {
     color: white;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.125rem;
     font-family: 'Afterglow'
     margin: 0rem;
     padding: 0 1.2rem 3rem 0;
@@ -270,7 +270,7 @@ img.one {
     width: 100%;
     margin: 0;
     overflow: auto;
-    background: linear-gradient(white, #dbd16c);
+    background: linear-gradient(white, #a9c3e6, #5872b7);
     padding: 1rem 2rem 1rem 0;
 }
 
@@ -312,8 +312,45 @@ img.poppers {
     align-items: center;
 }
 
+.projectfour {
+    border-top: white solid .1rem;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background color: #252469;
+    padding: 1rem 2rem 1rem 0;
+}
 
+.projectthree flex {
+    align-items: center;
+}
 
+.containerfour {
+    padding-left: 2.2rem;
+    position: relative;
+    z-index: 3rem;
+    width: 94%;
+}
+
+.containerfour img{
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    align-items: baseline;
+}
+
+.projectpagefour {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 1rem;
+}
+
+.imageboxfour {
+    justify-content: right;
+    margin: 1rem;
+    align-items: center;
+}
 
 
 
