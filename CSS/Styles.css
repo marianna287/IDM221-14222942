@@ -43,51 +43,42 @@ body {
     height: auto;
     position: relative;
 }
+.header {
+    background-color: rgb(230, 96, 124);
+}
 .container {
     width: 100%;
     margin: 0;
-    padding: 16px
-    background-color: rgb(230, 96, 124); }
+    padding: 16px; 
+    background-color: rgb(230, 96, 124); 
+}
 h1.firstname {
     padding-top: 6rem;
     padding-bottom: .3rem;
     font-family: 'Stretch Pro'; 
     font-size: 1.875rem;
-    text-align: center;
+    text-align: left;
     margin: 0;
+    color: white;
 }
 h1.lastname {
     font-family: 'Stretch Pro'; 
     font-size: 1.875rem;
-    text-align: center;
-    margin: 0 0 5rem 0; }
-.navigator {
-    list-style: none;
-    text-align: center;
-    font-size: 1.125rem; }
-ul.navigator {
-    padding: 0;
+    text-align: left;
+    margin: 0 0 5rem 0;
+    color: white; }
+.bottomheader {
+    padding: 1rem;
 }
-ul.navigator li{
-    padding: 3rem;
-    list-style: none; }
-ul.bottomheader {
-    width: 100%;
-    margin: 0;
-    padding: 16px; 
-    list-style: none; }
-.bottomheader li {
-    font-family: 'Letter Magic';
-    font-size: 1.5625rem;
-    display: inline-block; }
-.bottomheader li a {
-    text-align: center;
-    padding: none;
+p.bottomheader {
+    font-family: 'Stretch Pro';
 }
-li.project {
+p.projects {
     position: relative;
     text-align: right;
-    left: 10rem;
+    color: white;
+    font-size: 1.875 rem;
+    font-family: 'Stretch Pro';
 }
 .projecttitle {
     text-align: right; }
