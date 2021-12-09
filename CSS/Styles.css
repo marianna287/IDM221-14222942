@@ -160,9 +160,10 @@ h1.lastname {
 .bio {
     color: white;
     text-align: left;
-    font-size: 1.5rem
-    font-family: 'Monument Extended';
+    font-size: 1.3rem;
+    font-family: 'Afterglow'
     margin: 0rem;
+    padding: 0 1.2rem 3rem 0;
 }
 
 .frontpage {
@@ -172,7 +173,7 @@ h1.lastname {
 div.projects {
     width: 100%;
     text-align: right;
-    margin: 0rem;
+    margin: auto;
     font-size: .75rem;
 }
 h2.projects {
@@ -184,41 +185,137 @@ h2.projects {
     text-align: right;
     padding: 0rem;
 }
-main {
-    width: 100%;
-    margin: 0;
-}
-.projecttitle {
-    text-align: right; }
+
 .projectone {
-    border-top: .1rem solid black;
-    background-color: rgb(213, 221, 166);
+    border-top: white solid .1rem;
     width: 100%;
+    overflow: auto;
+    background: linear-gradient(white, #dbd16c);
+    height: auto;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.bowl {
+    z-index: 10rem;
+    position: relative;
+    margin-left: .2rem;
+}
+
+div.leftcontainer {
+    padding-left: 1.5rem;
+    position: relative;
+    z-index: 1rem;
+}
+
+.projectpage .flex {
+    display: flex;
+    align-items: baseline;
 }
 
 .imagebox .flex {
-    display: flex;
     justify-content: right;
-}
-h5.one .flex {
-    display: flex;
-    justify-content: left;
-    font-size: 3rem;
+    align-items: baseline;
+    overflow: auto;
+    margin: 0;
 }
 
-h5.one {
-    font-size: 15rem;
-    font-family: 'Sonder';
+img.one {
+    width: 62%;
 }
-div.imagebox {
-    height: 11.25rem;
-    width: 13rem;
-    position: relative; 
-    border: .1rem solid black;
-    border-radius: 10px;
-    z-index: 1;
+
+.projecttwo {
+    border-top: white solid .1rem;
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(white, #f3a698, #db706b);
+    padding: 1rem 0rem 1rem 1rem;
 }
-div.bowl {
+
+.projecttwo flex {
+    align-items: center;
+}
+
+.table {
+    z-index: 1rem;
     position: relative;
-    z-index: 10;
 }
+
+.leftcontainertwo {
+    position: relative;
+    z-index: .5rem;
+}
+
+.leftcontainertwo.flex img{
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    align-items: baseline;
+}
+
+.projectpagetwo .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 1rem;
+}
+
+.imageboxtwo .flex {
+    justify-content: right;
+    margin: 0;
+    align-items: center;
+}
+
+.projectthree {
+    border-top: white solid .1rem;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background: linear-gradient(white, #dbd16c);
+    padding: 1rem 2rem 1rem 0;
+}
+
+.projectthree flex {
+    align-items: center;
+}
+
+img.poppers {
+    margin: 0;
+    z-index: 1rem;
+    position: relative;
+    overflow: auto;
+}
+
+.leftcontainerthree {
+    padding-left: 2.2rem;
+    position: relative;
+    z-index: 3rem;
+    width: 94%;
+}
+
+.leftcontainerthree.flex img{
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    align-items: baseline;
+}
+
+.projectpagethree .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 1rem;
+}
+
+.imageboxthree .flex {
+    justify-content: right;
+    margin: 1rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
