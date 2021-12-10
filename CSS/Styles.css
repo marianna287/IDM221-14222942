@@ -1,25 +1,7 @@
 @font-face {
-    font-family: 'Afterglow';
-    src: url('Afterglow-Regular.woff2') format('woff2'),
-        url(../fonts/'Afterglow-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap; 
-}
-
-@font-face {
-    font-family: 'Letter Magic';
-    src: url('LetterMagicRegular.woff2') format('woff2'),
-        url(../fonts/'LetterMagicRegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Monument Extended';
-    src: url('MonumentExtended-Regular.woff2') format('woff2'),
-        url(../fonts/'MonumentExtended-Regular.woff2') format('woff');
+    src: url(../fonts/MonumentExtended-Regular.woff2) format('woff2'),
+        url(../fonts/MonumentExtended-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -27,8 +9,8 @@
 
 @font-face {
     font-family: 'Sonder';
-    src: url('SonderRegular.woff2') format('woff2'),
-        url(../fonts/'SonderRegular.woff') format('woff');
+    src: url(../fonts/SonderRegular.woff2) format('woff2'),
+        url(../fonts/SonderRegular.woff) format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -36,8 +18,8 @@
 
 @font-face {
     font-family: 'Stretch Pro';
-    src: url('StretchProRegular.woff2') format('woff2'),
-        url(../fonts/'StretchProRegular.woff') format('woff');
+    src: url(../fonts/StretchProRegular.woff2) format('woff2'),
+        url(../fonts/StretchProRegular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -68,7 +50,7 @@ a {
 
 h1,
 h2 {
-    line-height 1;
+    line-height: 1;
     margin: 1rem;
 }
 
@@ -109,7 +91,6 @@ img {
 .navsymbol {
     height: 2.5rem;
     width: 2.5rem;
-    margin-right: 2rem;
 }
 
 .navbar ul {
@@ -122,10 +103,16 @@ img {
     font-size: 1rem;
 }
 
-.navbar a:hover {
+.projectnavbar a:hover {
     border-radius: 40rem;
     padding: .6rem;
     background-color: rgb(230,96, 124);
+}
+
+.navsymbol a:hover img {
+    padding: 0;
+    background-color: rgb(230,96, 124);
+    filter: blur(2rem);
 }
 
 .navbar .flex {
@@ -167,15 +154,15 @@ div.bio {
     color: white;
     text-align: left;
     font-size: 1.125rem;
-    font-family: 'Afterglow';
+    font-family: 'Monument Extended';
     margin: 0rem;
-    padding: 0 1.2rem 3rem 0;
+    padding: .2rem 1.2rem 3rem 0;
     background-image: url("../Images/swirl.jpeg");
     background-color: rgb(230, 96, 124);
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 38rem;
-    background-size: 120%;
+    height: 35rem;
+    background-size: 90%;
 }
 
 .frontpage {
@@ -189,10 +176,11 @@ div.bottomcontainer {
     font-size: .75rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 h2.projects {
-    font-family: 'Stretch Pro';
+    font-family: 'Monument Extended';
     position: relative;
     color: white;
     font-size: 1.5rem;
@@ -202,7 +190,8 @@ h2.projects {
 
 .arrow {
     position: relative;
-    bottom: .5rem;
+    bottom: 1.2rem;
+    padding-top: .5rem;
 }
 
 .projectone {
@@ -394,6 +383,7 @@ div.yellowbox {
     overflow: auto; }
 
 div.textbox {
+    font-family: 'Monument Extended';
     margin-top: 4rem;
     color: black;
     font-size: 1.5rem;
@@ -408,6 +398,7 @@ div.bowldescription {
     position: relative;
     bottom: 4.6rem;
     padding: 2rem;
+    font-family: 'Monument Extended';
 }
 
 .yellowboxtwo {
@@ -458,13 +449,14 @@ footer {
 
 .tableintro {
     align-items: left;
-    font-family: 'Stretch Pro';
+    font-family: 'Monument Extended';
     margin: .5rem;
     padding-right: 5rem;
 }
 
 div.table.intro {
     color: black;
+    font-family: 'Monument Extended';
 }
 
 div.tabletitle {
