@@ -80,12 +80,11 @@ img {
 }
 
 .navbar {
-    max height: 3.75rem;
+    max-height: 6rem;
     height: 100%;
 }
 
 .topcontainer {
-    border: black solid .1rem;
     width: 100%;
     margin: 0;
     overflow: auto;
@@ -100,9 +99,9 @@ img {
 }
 
 .navsymbol {
-    height: 2rem;
-    width: 2rem;
-    margin: 0 2rem 0 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
 }
 
 .navbar ul {
@@ -133,7 +132,6 @@ img {
 }
 
 div.container {
-    padding: 16px;
     width: 100%;
     margin: 0;
     height: auto;
@@ -157,33 +155,46 @@ h1.lastname {
     color: white; 
 }
 
-.bio {
+div.bio {
     color: white;
     text-align: left;
     font-size: 1.125rem;
     font-family: 'Afterglow'
     margin: 0rem;
     padding: 0 1.2rem 3rem 0;
+    background-image: url("../Images/swirl.jpeg");
+    background-color: rgb(230, 96, 124);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 38rem;
+    background-size: 120%;
 }
 
 .frontpage {
-    margin: 0 .5rem;
+    margin-left: .75rem;
 }
 
-div.projects {
+div.bottomcontainer {
     width: 100%;
     text-align: right;
     margin: auto;
     font-size: .75rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
+
 h2.projects {
     font-family: 'Stretch Pro';
     position: relative;
     color: white;
-    font-size: 1.875 rem;
-    margin: 0rem;
-    text-align: right;
-    padding: 0rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: .5rem;
+}
+
+.arrow {
+    position: relative;
+    top: .2rem;
 }
 
 .projectone {
@@ -192,7 +203,7 @@ h2.projects {
     overflow: auto;
     background: linear-gradient(white, #dbd16c);
     height: auto;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 .bowl {
@@ -228,7 +239,7 @@ img.one {
     width: 100%;
     overflow: auto;
     background: linear-gradient(white, #f3a698, #db706b);
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 .projecttwo flex {
@@ -271,7 +282,7 @@ img.one {
     margin: 0;
     overflow: auto;
     background: linear-gradient(white, #a9c3e6, #5872b7);
-    padding: 1rem 2rem 1rem 0;
+    padding: 2rem;
 }
 
 .projectthree flex {
@@ -283,20 +294,20 @@ img.poppers {
     z-index: 1rem;
     position: relative;
     overflow: auto;
+    margin-right: 4rem;
 }
 
 .leftcontainerthree {
-    padding-left: 2.2rem;
     position: relative;
-    z-index: 3rem;
-    width: 94%;
+    z-index: 10rem;
+    width: 35%;
 }
 
 .leftcontainerthree.flex img{
     display: flex;
-    padding: 1rem;
     font-size: 1rem;
     align-items: baseline;
+    margin-left: 2rem;
 }
 
 .projectpagethree .flex {
@@ -317,41 +328,19 @@ img.poppers {
     width: 100%;
     margin: 0;
     overflow: auto;
-    background color: #252469;
-    padding: 1rem 2rem 1rem 0;
+    background-color: #252469;
+    height: auto;
+    padding: 3rem;
 }
 
-.projectthree flex {
+h5.containerfour {
+    font-size: 1.5rem;
+}
+
+.thesis {
+    width: 20rem;
     align-items: center;
 }
-
-.containerfour {
-    padding-left: 2.2rem;
-    position: relative;
-    z-index: 3rem;
-    width: 94%;
-}
-
-.containerfour img{
-    display: flex;
-    padding: 1rem;
-    font-size: 1rem;
-    align-items: baseline;
-}
-
-.projectpagefour {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-right: 1rem;
-}
-
-.imageboxfour {
-    justify-content: right;
-    margin: 1rem;
-    align-items: center;
-}
-
 
 
 
