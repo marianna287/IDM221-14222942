@@ -83,6 +83,7 @@ img {
 .navbar {
     max-height: 15rem;
     height: 100%;
+    overflow: auto;
 }
 
 .topcontainer {
@@ -352,62 +353,50 @@ h5.seniorthesis {
     align-items: center;
 }
 
+div.medipageone {
+    background: linear-gradient(white, #dbd16c);
+}
 
 div.mediready {
-    padding: 3rem;
-}
-h1.medi {
-    font-family: 'Stretch Pro'; 
-    font-size: 3rem;
-    margin: 0;
-    color: white;
-    position:relative;
-    letter-spacing:.1rem;
-    text-align: center;
-}
-
-h1.petfoodbowl {
-    font-family: 'Stretch Pro'; 
-    font-size: 1.55rem;
-    text-align: left;
-    margin: 0;
-    color: white; 
-    letter-spacing: .1rem;
-    text-align: center;
-}
-
-h1.numberone {
-    font-family: 'Sonder';
-    font-size: 7rem;
-    text-align: center;
-    margin: 0;
-    align-items: center;
-    flex: center;
+    padding: 1rem;
+    z-index: 20rem;
+    position: relative;
 }
 
 img.medireadybowl {
     position: relative;
     z-index: 20rem;
-    bottom:.2rem;
+    align-items: left;
+    margin: .5rem;
+    padding-right: 5rem;
 }
+
+.logoextrapadding {
+    margin: 0;
+    padding-right: 5rem;
+    padding-left: .5rem;
+    padding-top: 2rem;
+}
+
 
 div.extrapadding {
     margin: 2rem;
 }
 
 div.yellowbox {
-    border: yellow solid .2rem;
+    border: white solid .2rem;
     padding: 2rem;
-    width: 100%
-    align-items: center;
+    width: 100%;
+    overflow: auto;
     position: relative;
     z-index: 1rem;
-    bottom: 9rem;
-    overflow: auto;
-}
+    bottom: 8rem;
+    overflow: auto; }
 
 div.textbox {
     margin-top: 4rem;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .medicontainer {
@@ -468,7 +457,7 @@ footer {
 }
 
 .tableintro {
-    align text: left;
+    align-items: left;
     font-family: 'Stretch Pro';
     margin: .5rem;
     padding-right: 5rem;
@@ -511,4 +500,45 @@ div.tabletitle {
 
 .containergoals img {
     padding: .5rem;
+}
+
+div.attachments {
+    position:relative;
+    bottom: 4rem;
+}
+
+div.leftattachment {
+    padding: 0;
+    position: relative;
+    z-index: 1rem;
+}
+
+.attachments .flex {
+    justify-content: space-between;
+}
+
+.rowone .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowtwo .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowthree .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finalattachments h2{
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 5rem;
+    font-size: 1.3rem;
 }
