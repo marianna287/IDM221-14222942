@@ -532,3 +532,8 @@ div.leftattachment {
     bottom: 5rem;
     font-size: 1.3rem;
 }
+
+.thesispdf {
+    width: 100%;
+    min-height: 575px;
+}
